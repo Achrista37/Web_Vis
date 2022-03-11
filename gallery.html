@@ -12,20 +12,66 @@
 <!--<link rel="stylesheet" href="gallery-css.css">-->
 </head>
 <body>
+  <div class="container-fluid">    
+    <div class="m-4">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid">
+                <!--<a href="#" class="navbar-brand">Home</a> -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="data.html" class="nav-link">Data</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Plots</a>
+                            <div class="dropdown-menu">
+                                <a href="Fig1.html" class="dropdown-item">First Vis Page</a>
+                                <a href="Fig2.html" class="dropdown-item">Second Vis Page</a>
+                                <a href="Fig3.html" class="dropdown-item">Third Vis Page</a>
+                                <a href="Fig4.html" class="dropdown-item">Fourth Vis Page</a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+    </div>
+    <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+            <article class="description-content">
+              <h1 class="description-header">Comparison: Latitude vs. X</h1>
+              <hr class="description-hr"/>
+              <img src="assets/images/Fig1.png" alt="" id="description-image"/>
+              <p>Click on any images to view </p>
+
+            </article>
+          </div>
   <div class="img1">
-  <a href="link"><img src="images/Fig1.png"></a>
+  <a href="Fig1.html"><img src="images/Fig1.png"></a>
   </div>
   
   <div class="img2">
-  <a href="link"><img src="images/Fig2.png"></a>
+  <a href="Fig2.html"><img src="images/Fig2.png"></a>
   </div>
   
   <div class="img3">
-  <a href="link"><img src="images/Fig3.png"></a>
+  <a href="Fig3.html"><img src="images/Fig3.png"></a>
   </div>
 
   <div class="img3">
-    <a href="link"><img src="images/Fig4.png"></a>
+    <a href="Fig4.html"><img src="images/Fig4.png"></a>
     </div>
 </body>
 </html>
